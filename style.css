@@ -1,0 +1,97 @@
+body{
+	background-color: antiquewhite; 
+	font-size:16px;
+	color:#444;
+	font-family: sans-serif;
+}
+ 
+.content{
+	width: 70%;
+	margin: 60px auto;
+}
+ 
+/*header*/
+header{
+	background-color: white;
+	padding: 20px 30px;
+	border-radius: 8px;
+	border: 7px double #f0f0f0;
+	margin-bottom: 10px;
+}
+header h2.simbol{
+	text-align: center;
+}
+ 
+header h1.judul{
+	text-align: center;
+}
+
+header h3.deskripsi{
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;	
+}
+ 
+/*menu navigasi*/
+.menu{
+	background-color: #FFE4c4;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+ 
+div.menu ul {
+	list-style: none;
+	overflow: hidden;
+	
+    
+}
+ 
+ 
+div.menu ul li {
+	float :left;		
+	text-transform:uppercase;
+    
+}
+ 
+div.menu ul li a {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:#2c2c2c;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:300;
+	transition:all 0.3s ease-in-out;
+} 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:antiquewhite;
+}
+ 
+ 
+div.badan{
+	background-color: rgb(221, 198, 167);
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+div.halaman{
+	text-align: left;
+	padding: 80px 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.bro{
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div.bun{
+	float: right;
+	margin-right: 70px;
+	margin-top: 70px;
+}
+div.bin{
+	float: right;
+	margin-right: 300px;
+}
